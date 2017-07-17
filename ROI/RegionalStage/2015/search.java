@@ -199,6 +199,3 @@ public class Main {
     }
 
 }
-
-[close]
- 
