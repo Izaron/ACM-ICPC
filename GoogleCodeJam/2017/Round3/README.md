@@ -6,4 +6,4 @@ Mountain Tour | 6 | 30
 Slate Modern | 5 | 31
 In total | 50 | 100
 
-It was enough to have 74 points to pass next round
+It was enough to have 74 points to pass further
