@@ -7,4 +7,5 @@ Shoot the Turrets | 0 | 34
 In total | 49 | 100
 
 37 points to pass further
+
 23 points to win a t-shirt
