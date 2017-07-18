@@ -5,15 +5,15 @@
 Task | Points | Out of | Themes to get points
 --- | --- | --- | ---
 onlyone | 100 | 100 | Set theory
-monument | 100 | 100 | Maths and debugging skills
-repair | 100 | 100 | Graph theory, data structures
+monument | 100 | 100 | Maths, Debugging skills
+repair | 100 | 100 | Graph theory, Data structures
 penguins | 59 | 100 | Dynamic programming
 In total (1st day) | 359 | 400
 
 Task | Points | Out of | Themes to get points
 --- | --- | --- | ---
 grants | 66 | 100 | Greedy algorithms
-submarine | 100 | 100 | Dynamic programming, partial sums
+submarine | 100 | 100 | Dynamic programming, Partial sums
 lamps | 68 | 100 | Quadratic algoritms optimizations
 alarm | 39 | 100 | Graph theory and algorithms
 In total (2nd day) | 273 | 400
