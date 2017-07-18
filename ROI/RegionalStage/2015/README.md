@@ -42,7 +42,7 @@ Task | Themes
 --- | ---
 hall | System of math equations, simple linear search
 prizes | Partial sums
-river | Explicit treap
+river | Implicit treap
 search | Ability to solve optimization problems
 circle | Simple math
 forest | Binary search (with overflows)

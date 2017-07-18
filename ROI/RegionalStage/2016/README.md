@@ -40,7 +40,7 @@ Task | Themes
 --- | ---
 prizes | Two pointers
 space | Binary search (with overflows)
-strange | Dynamic programming, data structures
+strange | Dynamic programming, some data structures
 trains | Binary search, convert monotonic operations with an array to O(log(n)) from O(n)
 division | Simple math, nested linear searches
 game | std::map/TreeMap, strong math
