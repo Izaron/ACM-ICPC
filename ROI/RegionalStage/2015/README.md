@@ -2,6 +2,8 @@
 
 [Solve second day](https://contest.yandex.ru/roiarchive/contest/2013/enter/)
 
+In both days you had 5 hours and 10 submission for each task
+
 Task | Points | Out of
 --- | --- | ---
 hall | 100 | 100
@@ -45,4 +47,4 @@ search | Ability to solve optimization problems
 circle | Simple math
 forest | Binary search (with overflows)
 tiling | Dynamic programming on profile
-transform  | Classical unsolvable problem with boring statement
+transform  | Classic unsolvable problem with boring statement
