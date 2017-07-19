@@ -1,3 +1,5 @@
+<center><img src="https://user-images.githubusercontent.com/5406399/28385154-b36ca0ce-6ccf-11e7-93fa-72504c24efd5.png" alt="Drawing" width="200" align="middle"/></center>
+
 # Russian Olympiad in Informatics 
 
 The Russian Olympiad in Informatics is held every year. It consists of four stages - school, city, regional and final.
