@@ -18,6 +18,8 @@
 |C| tiling | `tiling.cpp` | ✓100 | Dynamic programming on profile |
 |D| transform | `transform.cpp` | ✗20 | Classic unsolvable problem with boring statement |
 
+## Points to pass further
+
 This stage was the qualification for the final stage
 
 Points enough to pass to the final stage:
