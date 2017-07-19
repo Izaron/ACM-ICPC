@@ -1,28 +1,22 @@
-[Solve first day](https://contest.yandex.ru/roiarchive/contest/2012/enter/)
+# Regional Stage 2015 ![C++](https://img.shields.io/badge/language-C++-orange.svg) ![Java](https://img.shields.io/badge/language-Java-orange.svg) ![Progress](https://img.shields.io/badge/progress-720%2F800-green.svg)
 
-[Solve second day](https://contest.yandex.ru/roiarchive/contest/2013/enter/)
+## [First day](https://contest.yandex.ru/roiarchive/contest/2012/enter/)
 
-In both days you had 5 hours and 10 submission for each task
+| # | Task | Solution | Points | Note |
+|---| ---- | -------- | -------- | ---- |
+|A| hall | `hall.java` | ✓100 | System of math equations, simple linear search |
+|B| prizes | `prizes.java` | ✓100 | Partial sums |
+|C| river | `river.cpp` | ✓100 | Implicit treap |
+|D| search | `search.java` | ✓100 | Ability to solve optimization problems |
 
-Task | Points | Out of
---- | --- | ---
-hall | 100 | 100
-prizes | 100 | 100
-river | 100 | 100
-search  | 100 | 100
-In total (1st day) | 400 | 400
+## [Second day](https://contest.yandex.ru/roiarchive/contest/2012/enter/)
 
-Task | Points | Out of
---- | --- | ---
-circle | 100 | 100
-forest | 100 | 100
-tiling | 100 | 100
-transform  | 20 | 100
-In total (2nd day) | 320 | 400
-
-Points after upsolving | Out of
---- | ---
-720 | 800
+| # | Task | Solution | Points | Note |
+|---| ---- | -------- | -------- | ---- |
+|A| circle | `circle.cpp` | ✓100 | Simple math |
+|B| forest | `forest.cpp` | ✓100 | Binary search (with overflows) |
+|C| tiling | `tiling.cpp` | ✓100 | Dynamic programming on profile |
+|D| transform | `transform.cpp` | ✗20 | Classic unsolvable problem with boring statement |
 
 This stage was the qualification for the final stage
 
@@ -34,17 +28,17 @@ Grade | Points
 10 | 461
 11 | 516
 
-When I was in 9th grade, I got 429 points and passed further
+## Fast compiling via the terminal
 
-Themes needs to know to solve for 100 points for this set of tasks:
+### Java
 
-Task | Themes
---- | ---
-hall | System of math equations, simple linear search
-prizes | Partial sums
-river | Implicit treap
-search | Ability to solve optimization problems
-circle | Simple math
-forest | Binary search (with overflows)
-tiling | Dynamic programming on profile
-transform  | Classic unsolvable problem with boring statement
+Firstly, either rename source file to Main.java or change in the code `class Main` -> `class %sourceFile%`
+
+```
+javac %sourceFile%.java
+java %sourceFile%
+```
+
+### C++
+
+`g++ -std=c++11 %source%.cpp -o %source%`
