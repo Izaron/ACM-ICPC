@@ -1,26 +1,24 @@
-[Solve first day](https://contest.yandex.ru/roiarchive/contest/2169/enter/)
+# Regional Stage 2016 ![C++](https://img.shields.io/badge/language-C++-orange.svg) ![Java](https://img.shields.io/badge/language-Java-orange.svg) ![Progress](https://img.shields.io/badge/progress-800%2F800-green.svg)
 
-[Solve second day](https://contest.yandex.ru/roiarchive/contest/2170/enter/)
+## [First day](https://contest.yandex.ru/roiarchive/contest/2169/enter/)
 
-Task | Points | Out of
---- | --- | ---
-prizes | 100 | 100
-space | 100 | 100
-strange | 100 | 100
-trains  | 100 | 100
-In total (1st day) | 400 | 400
+| # | Task | Solution | Points | Note |
+|---| ---- | -------- | -------- | ---- |
+|A| prizes | `prizes.java` | ✓100 | Two pointers |
+|B| space | `space.java` | ✓100 | Binary search (with overflows) |
+|C| strange | `strange.java` | ✓100 | Dynamic programming, some data structures |
+|D| trains | `trains.cpp` | ✓100 | Binary search, convert monotonic operations with an array to O(log(n)) from O(n) |
 
-Task | Points | Out of
---- | --- | ---
-division | 100 | 100
-game | 100 | 100
-numbers | 100 | 100
-sequence  | 100 | 100
-In total (2nd day) | 400 | 400
+## [Second day](https://contest.yandex.ru/roiarchive/contest/2170/enter/)
 
-Points after upsolving | Out of
---- | ---
-800 | 800
+| # | Task | Solution | Points | Note |
+|---| ---- | -------- | -------- | ---- |
+|A| division | `division.java` | ✓100 | Simple math, nested linear searches |
+|B| game | `game.java` | ✓100 | std::map/TreeMap, strong math |
+|C| numbers | `numbers.java` | ✓100 | Dynamic programming |
+|D| sequence | `sequence.java` | ✓100 | Nested ternary searches, number theory, std::set/TreeSet, math |
+
+## Points to pass further
 
 This stage was the qualification for the final stage
 
@@ -32,17 +30,20 @@ Grade | Points
 10 | 548
 11 | 601
 
-When I was in 10th grade, I got 677 points and passed further
+## Fast compiling via the terminal
 
-Themes needs to know to solve for 100 points for this set of tasks:
+### Java
 
-Task | Themes
---- | ---
-prizes | Two pointers
-space | Binary search (with overflows)
-strange | Dynamic programming, some data structures
-trains | Binary search, convert monotonic operations with an array to O(log(n)) from O(n)
-division | Simple math, nested linear searches
-game | std::map/TreeMap, strong math
-numbers | Dynamic programming
-sequence  | Nested ternary searches, number theory, std::set/TreeSet, math
+Firstly, either rename source file to Main.java or change in the code `class Main` -> `class %sourceFile%`
+
+```
+javac %sourceFile%.java
+java %sourceFile%
+```
+
+### C++
+
+```
+g++ -std=c++11 %source%.cpp -o %source%
+./%source%
+```
