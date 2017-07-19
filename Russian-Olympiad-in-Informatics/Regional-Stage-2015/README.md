@@ -41,4 +41,7 @@ java %sourceFile%
 
 ### C++
 
-`g++ -std=c++11 %source%.cpp -o %source%`
+```
+g++ -std=c++11 %source%.cpp -o %source%
+./%source%
+```
