@@ -13,9 +13,9 @@ C++ solutions of Google Code Jam 2017.
 
 | # | Task | Solution | Points | Note |
 |---| ---- | ------ | -------- | ---- |
-| A | [Oversized Pancake Flipper](https://code.google.com/codejam/contest/3264486/dashboard#s=p0) |   | ✓15 | | 
-| B | [Tidy Numbers](https://code.google.com/codejam/contest/3264486/dashboard#s=p1) |   | ✓20 | | 
-| C | [Bathroom Stalls](https://code.google.com/codejam/contest/3264486/dashboard#s=p2) |   | ✓30 | | 
+| A | [Oversized Pancake Flipper](https://code.google.com/codejam/contest/3264486/dashboard#s=p0) | [C++](./Qualification%20Round/oversized_pancake_flipper.cpp) | ✓15 | | 
+| B | [Tidy Numbers](https://code.google.com/codejam/contest/3264486/dashboard#s=p1) | [C++](./Qualification%20Round/tidy_numbers.cpp) | ✓20 | | 
+| C | [Bathroom Stalls](https://code.google.com/codejam/contest/3264486/dashboard#s=p2) | [C++](./Qualification%20Round/bathroom_stalls.cpp) | ✓30 | | 
 | D | [Fashion Show](https://code.google.com/codejam/contest/3264486/dashboard#s=p3) |   | ✗0 | | 
 
 ## Round 1A ![Points](https://img.shields.io/badge/points-0%2F3-green.svg)
