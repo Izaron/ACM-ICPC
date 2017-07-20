@@ -1,4 +1,4 @@
-# Regional Stage 2015 ![C++](https://img.shields.io/badge/language-C++-orange.svg) ![Java](https://img.shields.io/badge/language-Java-orange.svg) ![Progress](https://img.shields.io/badge/progress-699%2F801-green.svg)
+# Regional Stage 2017 ![C++](https://img.shields.io/badge/language-C++-orange.svg) ![Java](https://img.shields.io/badge/language-Java-orange.svg) ![Progress](https://img.shields.io/badge/progress-699%2F801-green.svg)
 
 ## [First day](https://contest.yandex.ru/roiarchive/contest/4154/enter/)
 
