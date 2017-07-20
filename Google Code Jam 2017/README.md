@@ -1,4 +1,4 @@
-# [Google Code Jam 2017](https://code.google.com/codejam/past-contests) ![C++](https://img.shields.io/badge/language-C++-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) ![Problems](https://img.shields.io/badge/progress-10%2F21-ff69b4.svg) 
+# [Google Code Jam 2017](https://code.google.com/codejam/past-contests) ![C++](https://img.shields.io/badge/language-C++-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) ![Problems](https://img.shields.io/badge/progress-11%2F21-ff69b4.svg) 
 
 C++ solutions of Google Code Jam 2017.
 
@@ -34,11 +34,11 @@ C++ solutions of Google Code Jam 2017.
 | B | [Stable Neigh-bors](https://code.google.com/codejam/contest/8294486/dashboard#s=p1) | [C++](./Round%201B/stable_neighbors.cpp) | ✓35 | | 
 | C | [Pony Express](https://code.google.com/codejam/contest/8294486/dashboard#s=p2) | [C++](./Round%201B/pony_express.cpp) | ✓40 | | 
 
-## Round 1C ![Points](https://img.shields.io/badge/points-0%2F3-blue.svg)
+## Round 1C ![Points](https://img.shields.io/badge/points-25%2F90-blue.svg)
 
 | # | Task | Solution | Points | Note |
 |---| ---- | ------ | -------- | ---- |
-| A | [Ample Syrup](https://code.google.com/codejam/contest/3274486/dashboard#s=p0) |   | ✗0 | | 
+| A | [Ample Syrup](https://code.google.com/codejam/contest/3274486/dashboard#s=p0) | [C++](./Round%201C/ample_syrup.cpp) | ✓25 | | 
 | B | [Parenting Partnering](https://code.google.com/codejam/contest/3274486/dashboard#s=p1) |   | ✗0 | | 
 | C | [Core Training](https://code.google.com/codejam/contest/3274486/dashboard#s=p2) |   | ✗0 | | 
 
