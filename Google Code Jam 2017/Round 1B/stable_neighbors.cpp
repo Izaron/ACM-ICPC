@@ -8,9 +8,11 @@ const int maxn = (36927037 + 2000000) * 3;
 
 int fir, n;
 int as, bs, cs;
+int os, gs, vs;
 int used[3][maxn];
 bool val[3][maxn];
 int glob;
+string lal;
 
 bool us(int f, int a, int b, int c) {
     return (used[f][(a * (bs * cs + 2000)) + (b * (cs + 2000)) + c] == glob);
@@ -57,51 +59,95 @@ void vosst(int lst, int a, int b, int c) {
 
     if (lst != 0 && a > 0)
         if (dp(0, a - 1, b, c)) {
-            cout << "R";
+            lal += "R";
             vosst(0, a - 1, b, c);
             return;
         }
 
         if (lst != 1 && b > 0)
             if (dp(1, a, b - 1, c)) {
-                cout << "Y";
+                lal += "Y";
                 vosst(1, a, b - 1, c);
                 return;
             }
 
             if (lst != 2 && c > 0)
                 if (dp(2, a, b, c - 1)) {
-                    cout << "B";
+                    lal += "B";
                     vosst(2, a, b, c - 1);
                     return;
                 }
 }
 
 void sub() {
+    lal = "";
     glob++;
-    //cerr << "Wait..." << glob << endl;
     int tmp;
-    cin >> n >> as >> tmp >> bs >> tmp >> cs >> tmp;
+    cin >> n >> as >> os >> bs >> gs >> cs >> vs;
+    cs -= os;
+    as -= gs;
+    bs -= vs;
+
+    fir = -1;
     if (as > 0) {
         as--;
         fir = 0;
     } else if (bs > 0) {
         bs--;
         fir = 1;
-    } else {
+    } else if (cs > 0) {
         cs--;
         fir = 2;
     }
+    if (fir == -1) {
+        if (n % 2 == 0) {
+            if (as == 0 && gs == n / 2) {
+                for (int i = 0; i < n / 2; i++)
+                    cout << "RG";
+            } else if (bs == 0 && vs == n / 2) {
+                for (int i = 0; i < n / 2; i++)
+                    cout << "YV";
+            } else if (cs == 0 && os == n / 2) {
+                for (int i = 0; i < n / 2; i++)
+                    cout << "BO";
+            } else {
+                cout << "IMPOSSIBLE";
+            }
+        } else {
+            cout << "IMPOSSIBLE";
+        }
+        return;
+    }
+
     if (!dp(fir, as, bs, cs)) {
         cout << "IMPOSSIBLE";
     } else {
         if (fir == 0)
-            cout << "R";
+            lal += "R";
         else if (fir == 1)
-            cout << "Y";
+            lal += "Y";
         else
-            cout << "B";
+            lal += "B";
         vosst(fir, as, bs, cs);
+
+        string kek = "";
+        for (int i = 0; i < (int) lal.size(); i++) {
+            kek += lal[i];
+            while (lal[i] == 'B' && os > 0) {
+                kek += "OB";
+                os--;
+            }
+            while (lal[i] == 'R' && gs > 0) {
+                kek += "GR";
+                gs--;
+            }
+            while (lal[i] == 'Y' && vs > 0) {
+                kek += "VY";
+                vs--;
+            }
+        }
+
+        cout << (kek.size() == n ? kek : "IMPOSSIBLE");
     }
 }
 
@@ -113,6 +159,7 @@ int main() {
     cin >> n;
     for (int i = 0; i < n; i++) {
         cout << "Case #" << i + 1 << ": ";
+        cerr << "Case #" << i + 1 << " is being solved" << endl;
         sub();
         cout << endl;
     }
