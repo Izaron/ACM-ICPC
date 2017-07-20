@@ -9,7 +9,7 @@ C++ solutions of Google Code Jam 2017.
 * Round 2
 * Round 3
 
-## Qualification Round ![Points](https://img.shields.io/badge/points-65%2F100-green.svg)
+## Qualification Round ![Points](https://img.shields.io/badge/points-65%2F100-blue.svg)
 
 | # | Task | Solution | Points | Note |
 |---| ---- | ------ | -------- | ---- |
@@ -18,7 +18,7 @@ C++ solutions of Google Code Jam 2017.
 | C | [Bathroom Stalls](https://code.google.com/codejam/contest/3264486/dashboard#s=p2) | [C++](./Qualification%20Round/bathroom_stalls.cpp) | ✓30 | | 
 | D | [Fashion Show](https://code.google.com/codejam/contest/3264486/dashboard#s=p3) |   | ✗0 | | 
 
-## Round 1A ![Points](https://img.shields.io/badge/points-0%2F3-green.svg)
+## Round 1A ![Points](https://img.shields.io/badge/points-0%2F3-blue.svg)
 
 | # | Task | Solution | Points | Note |
 |---| ---- | ------ | -------- | ---- |
@@ -26,7 +26,7 @@ C++ solutions of Google Code Jam 2017.
 | B | [Ratatouille](https://code.google.com/codejam/contest/5304486/dashboard#s=p1) |   | ✗0 | | 
 | C | [Play the Dragon](https://code.google.com/codejam/contest/5304486/dashboard#s=p2) |   | ✗0 | | 
 
-## Round 1B ![Points](https://img.shields.io/badge/points-78%2F100-green.svg)
+## Round 1B ![Points](https://img.shields.io/badge/points-78%2F100-blue.svg)
 
 | # | Task | Solution | Points | Note |
 |---| ---- | ------ | -------- | ---- |
@@ -34,7 +34,7 @@ C++ solutions of Google Code Jam 2017.
 | B | [Stable Neigh-bors](https://code.google.com/codejam/contest/8294486/dashboard#s=p1) | [C++](./Round%201B/stable_neighbors.cpp) | ✗13 | | 
 | C | [Pony Express](https://code.google.com/codejam/contest/8294486/dashboard#s=p2) | [C++](./Round%201B/pony_express.cpp) | ✓40 | | 
 
-## Round 1C ![Points](https://img.shields.io/badge/points-0%2F3-green.svg)
+## Round 1C ![Points](https://img.shields.io/badge/points-0%2F3-blue.svg)
 
 | # | Task | Solution | Points | Note |
 |---| ---- | ------ | -------- | ---- |
@@ -42,7 +42,7 @@ C++ solutions of Google Code Jam 2017.
 | B | [Parenting Partnering](https://code.google.com/codejam/contest/3274486/dashboard#s=p1) |   | ✗0 | | 
 | C | [Core Training](https://code.google.com/codejam/contest/3274486/dashboard#s=p2) |   | ✗0 | | 
 
-## Round 2 ![Points](https://img.shields.io/badge/points-49%2F100-green.svg)
+## Round 2 ![Points](https://img.shields.io/badge/points-49%2F100-blue.svg)
 
 | # | Task | Solution | Points | Note |
 |---| ---- | ------ | -------- | ---- |
@@ -51,7 +51,7 @@ C++ solutions of Google Code Jam 2017.
 | C | [Beaming With Joy](https://code.google.com/codejam/contest/5314486/dashboard#s=p2) | [C++](./Round%202/beaming_with_joy.cpp) | ✗12 | | 
 | D | [Shoot the Turrets](https://code.google.com/codejam/contest/5314486/dashboard#s=p3) |   | ✗0 | | 
 
-## Round 3 ![Points](https://img.shields.io/badge/points-50%2F100-green.svg)
+## Round 3 ![Points](https://img.shields.io/badge/points-50%2F100-blue.svg)
 
 | # | Task | Solution | Points | Note |
 |---| ---- | ------ | -------- | ---- |

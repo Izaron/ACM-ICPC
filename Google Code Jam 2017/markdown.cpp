@@ -183,7 +183,7 @@ void print() {
         cout << "## ";
         cout << c.name << " ";
         cout << "![Points](https://img.shields.io/badge/points-"
-            << c.earned_points << "%2F" << c.point_count << "-green.svg)" << endl << endl;
+            << c.earned_points << "%2F" << c.point_count << "-blue.svg)" << endl << endl;
 
         cout << "| # | Task | Solution | Points | Note |" << endl;
         cout << "|---| ---- | ------ | -------- | ---- |" << endl;
