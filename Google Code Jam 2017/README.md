@@ -46,19 +46,19 @@ C++ solutions of Google Code Jam 2017.
 
 | # | Task | Solution | Points | Note |
 |---| ---- | ------ | -------- | ---- |
-| A | [Fresh Chocolate](https://code.google.com/codejam/contest/5314486/dashboard#s=p0) | [Link](./Round%202/fresh_chocolate.cpp) | ✓16 | | 
-| B | [Roller Coaster Scheduling](https://code.google.com/codejam/contest/5314486/dashboard#s=p1) | [Link](./Round%202/roller_coaster_scheduling.cpp) | ✓21 | | 
-| C | [Beaming With Joy](https://code.google.com/codejam/contest/5314486/dashboard#s=p2) | [Link](./Round%202/beaming_with_joy.cpp) | ✗12 | | 
+| A | [Fresh Chocolate](https://code.google.com/codejam/contest/5314486/dashboard#s=p0) | [C++](./Round%202/fresh_chocolate.cpp) | ✓16 | | 
+| B | [Roller Coaster Scheduling](https://code.google.com/codejam/contest/5314486/dashboard#s=p1) | [C++](./Round%202/roller_coaster_scheduling.cpp) | ✓21 | | 
+| C | [Beaming With Joy](https://code.google.com/codejam/contest/5314486/dashboard#s=p2) | [C++](./Round%202/beaming_with_joy.cpp) | ✗12 | | 
 | D | [Shoot the Turrets](https://code.google.com/codejam/contest/5314486/dashboard#s=p3) |   | ✗0 | | 
 
 ## Round 3 ![Points](https://img.shields.io/badge/points-50%2F100-green.svg)
 
 | # | Task | Solution | Points | Note |
 |---| ---- | ------ | -------- | ---- |
-| A | [Googlements](https://code.google.com/codejam/contest/8304486/dashboard#s=p0) | [Link](./Round%203/googlements.cpp) | ✓13 | | 
-| B | [Good News and Bad News](https://code.google.com/codejam/contest/8304486/dashboard#s=p1) | [Link](./Round%203/good_news_and_bad_news.cpp) | ✓26 | | 
-| C | [Mountain Tour](https://code.google.com/codejam/contest/8304486/dashboard#s=p2) | [Link](./Round%203/mountain_tour.cpp) | ✗6 | | 
-| D | [Slate Modern](https://code.google.com/codejam/contest/8304486/dashboard#s=p3) | [Link](./Round%203/slate_modern.cpp) | ✗5 | | 
+| A | [Googlements](https://code.google.com/codejam/contest/8304486/dashboard#s=p0) | [C++](./Round%203/googlements.cpp) | ✓13 | | 
+| B | [Good News and Bad News](https://code.google.com/codejam/contest/8304486/dashboard#s=p1) | [C++](./Round%203/good_news_and_bad_news.cpp) | ✓26 | | 
+| C | [Mountain Tour](https://code.google.com/codejam/contest/8304486/dashboard#s=p2) | [C++](./Round%203/mountain_tour.cpp) | ✗6 | | 
+| D | [Slate Modern](https://code.google.com/codejam/contest/8304486/dashboard#s=p3) | [C++](./Round%203/slate_modern.cpp) | ✗5 | | 
 
 ## Build and run
 ```

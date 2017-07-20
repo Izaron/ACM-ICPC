@@ -199,7 +199,7 @@ void print() {
             string file_name = "./" + c.name + "/" + name_to_file(t.name);
             string html_file_name = "./" + string_to_html(c.name) + "/" + name_to_file(t.name);
             if (file_exists(file_name)) {
-                cout << "[Link](" << html_file_name << ")";
+                cout << "[C++](" << html_file_name << ")";
             } else {
                 cout << " ";
             }
