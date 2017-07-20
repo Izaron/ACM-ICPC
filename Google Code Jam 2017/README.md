@@ -1,4 +1,4 @@
-# [Google Code Jam 2017](https://code.google.com/codejam/past-contests) ![C++](https://img.shields.io/badge/language-C++-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) ![Problems](https://img.shields.io/badge/progress-7%2F21-ff69b4.svg) 
+# [Google Code Jam 2017](https://code.google.com/codejam/past-contests) ![C++](https://img.shields.io/badge/language-C++-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) ![Problems](https://img.shields.io/badge/progress-9%2F21-ff69b4.svg) 
 
 C++ solutions of Google Code Jam 2017.
 
@@ -26,13 +26,13 @@ C++ solutions of Google Code Jam 2017.
 | B | [Ratatouille](https://code.google.com/codejam/contest/5304486/dashboard#s=p1) |   | ✗0 | | 
 | C | [Play the Dragon](https://code.google.com/codejam/contest/5304486/dashboard#s=p2) |   | ✗0 | | 
 
-## Round 1B ![Points](https://img.shields.io/badge/points-0%2F3-green.svg)
+## Round 1B ![Points](https://img.shields.io/badge/points-78%2F100-green.svg)
 
 | # | Task | Solution | Points | Note |
 |---| ---- | ------ | -------- | ---- |
-| A | [Steed 2: Cruise Control](https://code.google.com/codejam/contest/8294486/dashboard#s=p0) |   | ✗0 | | 
-| B | [Stable Neigh-bors](https://code.google.com/codejam/contest/8294486/dashboard#s=p1) |   | ✗0 | | 
-| C | [Pony Express](https://code.google.com/codejam/contest/8294486/dashboard#s=p2) |   | ✗0 | | 
+| A | [Steed 2: Cruise Control](https://code.google.com/codejam/contest/8294486/dashboard#s=p0) | [C++](./Round%201B/steed_2_cruise_control.cpp) | ✓25 | | 
+| B | [Stable Neigh-bors](https://code.google.com/codejam/contest/8294486/dashboard#s=p1) | [C++](./Round%201B/stable_neighbors.cpp) | ✗13 | | 
+| C | [Pony Express](https://code.google.com/codejam/contest/8294486/dashboard#s=p2) | [C++](./Round%201B/pony_express.cpp) | ✓40 | | 
 
 ## Round 1C ![Points](https://img.shields.io/badge/points-0%2F3-green.svg)
 
