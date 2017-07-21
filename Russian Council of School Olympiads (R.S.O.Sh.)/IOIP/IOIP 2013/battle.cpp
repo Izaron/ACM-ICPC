@@ -31,17 +31,22 @@ int main() {
     int n, k;
     cin >> n >> k;
 
-    int ms[N];
-    for(int i = 0; i < n; i++)
-        cin >> ms[i];
+    vector<int> vec(n);
+    for (int i = 0; i < n; i++)
+        cin >> vec[i];
 
-    for(int i = 0; i < k; i++) {
-        for(int z = 0; z < n - 1; z++) {
-            if(ms[z] > ms[z + 1])
-                swap(ms[z], ms[z + 1]);
-        }
+    set<int> st;
+    for (int i = 0; i < k; i++)
+        st.insert(vec[i]);
+
+    int ptr = k;
+    while (ptr < n) {
+        st.insert(vec[ptr++]);
+        cout << (*st.begin()) << " ";
+        st.erase(st.begin());
     }
 
-    for(int i = 0; i < n; i++)
-        cout << ms[i] << " ";
+    for (auto it : st)
+        cout << it << " ";
+    cout << endl;
 }

@@ -195,7 +195,7 @@ void print() {
 
     for (auto c : p.contests) {
         cout << "## ";
-        cout << "![" << c.name << "](" << c.link << ") ";
+        cout << "[" << c.name << "](" << c.link << ") ";
         cout << "![Points](https://img.shields.io/badge/points-"
             << c.earned_points << "%2F" << c.point_count << "-blue.svg)" << endl << endl;
 
