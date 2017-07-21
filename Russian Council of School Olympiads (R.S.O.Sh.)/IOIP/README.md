@@ -2,13 +2,13 @@
 
 C++ and Java solutions of Individual Olympiad in Informatics and Programming.
 
-* IOIP 2017
-* IOIP 2016
-* IOIP 2015
-* IOIP 2014
-* IOIP 2013
+* ![IOIP 2017](#ioip-2017-)
+* ![IOIP 2016](#ioip-2016-)
+* ![IOIP 2015](#ioip-2015-)
+* ![IOIP 2014](#ioip-2014-)
+* ![IOIP 2013](#ioip-2013-)
 
-## IOIP 2017 ![Points](https://img.shields.io/badge/points-0%2F500-blue.svg)
+## ![IOIP 2017](http://codeforces.com/gym/101327) ![Points](https://img.shields.io/badge/points-0%2F500-blue.svg)
 
 [Analysis in Russian](http://neerc.ifmo.ru/school/io/archive/20170319/tutorial-20170319-slides.pdf)
 
@@ -24,7 +24,7 @@ C++ and Java solutions of Individual Olympiad in Informatics and Programming.
 | D | army |  | ✗0 | 
 | E | parallelepiped |  | ✗0 | 
 
-## IOIP 2016 ![Points](https://img.shields.io/badge/points-400%2F600-blue.svg)
+## ![IOIP 2016](http://codeforces.com/gym/101284) ![Points](https://img.shields.io/badge/points-400%2F600-blue.svg)
 
 [Analysis in Russian](http://neerc.ifmo.ru/school/io/archive/20160327/analysis-20160327-individual.pdf)
 
@@ -41,7 +41,7 @@ C++ and Java solutions of Individual Olympiad in Informatics and Programming.
 | E | seating |  | ✗0 | 
 | F | minsumdiff |  | ✗0 | 
 
-## IOIP 2015 ![Points](https://img.shields.io/badge/points-400%2F500-blue.svg)
+## ![IOIP 2015](http://codeforces.com/gym/101284) ![Points](https://img.shields.io/badge/points-400%2F500-blue.svg)
 
 [Analysis in Russian](http://neerc.ifmo.ru/school/io/archive/20150330/analysis-20150330-individual.pdf)
 
@@ -57,7 +57,7 @@ C++ and Java solutions of Individual Olympiad in Informatics and Programming.
 | D | cakes | [C++](./IOIP%202015/cakes.cpp)  | ✓100 | 
 | E | accounts |  | ✗0 | 
 
-## IOIP 2014 ![Points](https://img.shields.io/badge/points-500%2F500-blue.svg)
+## ![IOIP 2014](http://codeforces.com/gym/100397) ![Points](https://img.shields.io/badge/points-500%2F500-blue.svg)
 
 [Analysis in Russian](http://neerc.ifmo.ru/school/io/archive/20140317/analysis-20140317-individual.pdf)
 
@@ -73,7 +73,7 @@ C++ and Java solutions of Individual Olympiad in Informatics and Programming.
 | D | holidays | [C++](./IOIP%202014/holidays.cpp) [Java](./IOIP%202014/holidays.java)  | ✓100 | 
 | E | melman | [Java](./IOIP%202014/melman.java)  | ✓100 | 
 
-## IOIP 2013 ![Points](https://img.shields.io/badge/points-440%2F500-blue.svg)
+## ![IOIP 2013](http://codeforces.com/gym/100174) ![Points](https://img.shields.io/badge/points-440%2F500-blue.svg)
 
 [Analysis in Russian](http://neerc.ifmo.ru/school/io/archive/20130318/analysis-20130318-individual-presentation.pdf)
 
