@@ -209,9 +209,9 @@ void print() {
             cout << "![1st degree](https://img.shields.io/badge/1st%20degree-"
                 << c.diplomas[2] << "%2F" << c.point_count << "-FFD700.svg)" << endl << endl;
         } else {
-            cout << "![Prize Winner](https://img.shields.io/badge/2nd%20degree-"
+            cout << "![Prize Winner](https://img.shields.io/badge/Prize%20Winner-"
                 << c.diplomas[1] << "%2F" << c.point_count << "-C0C0C0.svg)" << endl;
-            cout << "![Winner](https://img.shields.io/badge/1st%20degree-"
+            cout << "![Winner](https://img.shields.io/badge/Winner-"
                 << c.diplomas[2] << "%2F" << c.point_count << "-FFD700.svg)" << endl << endl;
         }
 

@@ -77,8 +77,8 @@ C++ and Java solutions of Individual Olympiad in Informatics and Programming.
 
 [Analysis in Russian](http://neerc.ifmo.ru/school/io/archive/20130318/analysis-20130318-individual-presentation.pdf)
 
-![Prize Winner](https://img.shields.io/badge/2nd%20degree-292%2F500-C0C0C0.svg)
-![Winner](https://img.shields.io/badge/1st%20degree-440%2F500-FFD700.svg)
+![Prize Winner](https://img.shields.io/badge/Prize%20Winner-292%2F500-C0C0C0.svg)
+![Winner](https://img.shields.io/badge/Winner-440%2F500-FFD700.svg)
 
 | # | Task | Solution | Points |
 |---| ---- | ------ | -------- |
