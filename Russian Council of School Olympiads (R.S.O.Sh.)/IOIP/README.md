@@ -2,11 +2,11 @@
 
 C++ and Java solutions of Individual Olympiad in Informatics and Programming.
 
-* ![IOIP 2017](#ioip-2017-)
-* ![IOIP 2016](#ioip-2016-)
-* ![IOIP 2015](#ioip-2015-)
-* ![IOIP 2014](#ioip-2014-)
-* ![IOIP 2013](#ioip-2013-)
+* IOIP 2017
+* IOIP 2016
+* IOIP 2015
+* IOIP 2014
+* IOIP 2013
 
 ## ![IOIP 2017](http://codeforces.com/gym/101327) ![Points](https://img.shields.io/badge/points-0%2F500-blue.svg)
 

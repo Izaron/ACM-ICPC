@@ -189,9 +189,8 @@ void print() {
 
     cout << endl << p.description << endl << endl;
 
-    int year = 7;
     for (auto c : p.contests)
-        cout << "* ![" << c.name << "](#ioip-201" << year-- << "-)" << endl;
+        cout << "* " << c.name << endl;
     cout << endl;
 
     for (auto c : p.contests) {
