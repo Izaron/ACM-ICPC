@@ -1,4 +1,4 @@
-# [Individual Olympiad in Informatics and Programming](http://neerc.ifmo.ru/school/ioip/index.html) ![C++](https://img.shields.io/badge/language-C++-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) ![Problems](https://img.shields.io/badge/progress-17%2F26-ff69b4.svg) 
+# [Individual Olympiad in Informatics and Programming](http://neerc.ifmo.ru/school/ioip/index.html) ![C++](https://img.shields.io/badge/language-C++-orange.svg) ![Java](https://img.shields.io/badge/language-Java-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) ![Problems](https://img.shields.io/badge/progress-17%2F26-ff69b4.svg) 
 
 C++ and Java solutions of Individual Olympiad in Informatics and Programming.
 
