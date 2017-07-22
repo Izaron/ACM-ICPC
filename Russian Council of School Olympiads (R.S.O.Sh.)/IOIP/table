@@ -12,15 +12,15 @@ http://neerc.ifmo.ru/school/io/archive/20170319/tutorial-20170319-slides.pdf
 256 300 384
 5
 spaceship
-0 100
+100 100
 seats
-0 100
+100 100
 counting
-0 100
+100 100
 army
 0 100
 parallelepiped
-0 100
+100 100
 
 IOIP 2016
 http://codeforces.com/gym/101284
@@ -36,12 +36,12 @@ polygon
 pencils
 100 100
 seating
-0 100
+100 100
 minsumdiff
 0 100
 
 IOIP 2015
-http://codeforces.com/gym/101284
+http://codeforces.com/gym/100716
 http://neerc.ifmo.ru/school/io/archive/20150330/analysis-20150330-individual.pdf
 295 360 400
 5

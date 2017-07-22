@@ -1,4 +1,4 @@
-# [Individual Olympiad in Informatics and Programming](http://neerc.ifmo.ru/school/ioip/index.html) ![C++](https://img.shields.io/badge/language-C++-orange.svg) ![Java](https://img.shields.io/badge/language-Java-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) ![Problems](https://img.shields.io/badge/progress-18%2F26-ff69b4.svg) 
+# [Individual Olympiad in Informatics and Programming](http://neerc.ifmo.ru/school/ioip/index.html) ![C++](https://img.shields.io/badge/language-C++-orange.svg) ![Java](https://img.shields.io/badge/language-Java-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) ![Problems](https://img.shields.io/badge/progress-23%2F26-ff69b4.svg) 
 
 C++ and Java solutions of Individual Olympiad in Informatics and Programming.
 
@@ -8,7 +8,7 @@ C++ and Java solutions of Individual Olympiad in Informatics and Programming.
 * IOIP 2014
 * IOIP 2013
 
-## [IOIP 2017](http://codeforces.com/gym/101327) ![Points](https://img.shields.io/badge/points-0%2F500-blue.svg)
+## [IOIP 2017](http://codeforces.com/gym/101327) ![Points](https://img.shields.io/badge/points-400%2F500-blue.svg)
 
 [Analysis in Russian](http://neerc.ifmo.ru/school/io/archive/20170319/tutorial-20170319-slides.pdf)
 
@@ -18,13 +18,13 @@ C++ and Java solutions of Individual Olympiad in Informatics and Programming.
 
 | # | Task | Solution | Points |
 |---| ---- | ------ | -------- |
-| A | spaceship |  | ✗0 | 
-| B | seats |  | ✗0 | 
-| C | counting |  | ✗0 | 
+| A | spaceship | [C++](./IOIP%202017/spaceship.cpp)  | ✓100 | 
+| B | seats | [C++](./IOIP%202017/seats.cpp)  | ✓100 | 
+| C | counting | [C++](./IOIP%202017/counting.cpp)  | ✓100 | 
 | D | army |  | ✗0 | 
-| E | parallelepiped |  | ✗0 | 
+| E | parallelepiped | [C++](./IOIP%202017/parallelepiped.cpp)  | ✓100 | 
 
-## [IOIP 2016](http://codeforces.com/gym/101284) ![Points](https://img.shields.io/badge/points-400%2F600-blue.svg)
+## [IOIP 2016](http://codeforces.com/gym/101284) ![Points](https://img.shields.io/badge/points-500%2F600-blue.svg)
 
 [Analysis in Russian](http://neerc.ifmo.ru/school/io/archive/20160327/analysis-20160327-individual.pdf)
 
@@ -38,10 +38,10 @@ C++ and Java solutions of Individual Olympiad in Informatics and Programming.
 | B | path | [C++](./IOIP%202016/path.cpp)  | ✓100 | 
 | C | polygon | [C++](./IOIP%202016/polygon.cpp)  | ✓100 | 
 | D | pencils | [C++](./IOIP%202016/pencils.cpp)  | ✓100 | 
-| E | seating |  | ✗0 | 
+| E | seating | [C++](./IOIP%202016/seating.cpp)  | ✓100 | 
 | F | minsumdiff |  | ✗0 | 
 
-## [IOIP 2015](http://codeforces.com/gym/101284) ![Points](https://img.shields.io/badge/points-400%2F500-blue.svg)
+## [IOIP 2015](http://codeforces.com/gym/100716) ![Points](https://img.shields.io/badge/points-400%2F500-blue.svg)
 
 [Analysis in Russian](http://neerc.ifmo.ru/school/io/archive/20150330/analysis-20150330-individual.pdf)
 
