@@ -38,6 +38,6 @@
 
 ## Want moar?
 
-It's a small pity that Russia has such a strong IOI team every year**\*** (ever no any bronze medal since 2006, lol), and I've never participated at this prestigious contest, because I wasn't too good enough to enter the team. But I definitely had fun solving these tasks. By the way, do you want to try to solve it? :godmode:
+It's a small pity that Russia has such a strong IOI team every year\* (ever no any bronze medal since 2006), and I've never participated at this prestigious contest, because I wasn't too good enough to enter the team. But I definitely had fun solving these tasks. By the way, do you want to try to solve it? :godmode:
 
-**\*** Just kidding, it's awesome :trollface:
+\* Just kidding, it's awesome :trollface:
