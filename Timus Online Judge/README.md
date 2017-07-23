@@ -24,3 +24,17 @@
 * ![Problems solved](https://img.shields.io/badge/Volume%2012-3%2F11-yellow.svg?style=flat-square)
 
  :rainbow: Taste the rainbow! :rainbow: 
+
+
+## Interesting tasks :notebook: 
+
+Interesting tasks that I've solved
+
+| #    | Name                | Difficulty | Topics                   |
+|------|---------------------|------------|--------------------------|
+| [1891](http://acm.timus.ru/problem.aspx?space=1&num=1891&locale=en) | :ocean:  Language Ocean | 537        | Implementation           |
+| [1438](http://acm.timus.ru/problem.aspx?space=1&num=1438&locale=en)  | :hourglass:  Time Limit Exceeded | 3064       | Data structures, Strings |
+| [1508](http://acm.timus.ru/problem.aspx?space=1&num=1508&locale=en) | :jp:  Japanese Puzzle | 1651       | Dynamic programming      |
+| [1345](http://acm.timus.ru/problem.aspx?space=1&num=1345&locale=en) | :rage1:  HTML | 1416       | Strings                  |
+| [1540](http://acm.timus.ru/problem.aspx?space=1&num=1540&locale=en) | :ring:  Battle for the Ring | 1126       | Game theory              |
+| [1730](http://acm.timus.ru/problem.aspx?space=1&num=1730&locale=en) | :bear:  ManBearPig | 970        | Greedy algorithms        |
