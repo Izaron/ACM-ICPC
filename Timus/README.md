@@ -22,4 +22,5 @@
 * ![Problems solved](https://img.shields.io/badge/Volume%2010-27%2F100-0000FF.svg?style=flat-square)
 * ![Problems solved](https://img.shields.io/badge/Volume%2011-49%2F100-brightgreen.svg?style=flat-square)
 * ![Problems solved](https://img.shields.io/badge/Volume%2012-3%2F11-yellow.svg?style=flat-square)
+
  :rainbow: Taste the rainbow! :rainbow: 
