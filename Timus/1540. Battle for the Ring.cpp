@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 00:50:57   5 Nov 2016
+// Execution time: 0.109
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 #include <bits/stdc++.h>
 #define mkp make_pair
 #define pb push_back

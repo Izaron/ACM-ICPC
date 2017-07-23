@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 22:06:33   23 Aug 2016
+// Execution time: 0.28
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 #include <bits/stdc++.h>
 #define pb push_back
 #define ins insert

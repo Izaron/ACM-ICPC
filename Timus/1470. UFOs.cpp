@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 23:54:47   13 Apr 2015
+// Execution time: 1.234
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 #define TRUE FALSE
 //  _           _                                          _              _               _          _                _                    ___
 // | |         | |                                        | |            (_)             | |        | |              | |                  |__ \

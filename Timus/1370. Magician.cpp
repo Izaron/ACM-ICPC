@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 00:29:56   3 May 2015
+// Execution time: 0.015
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 #include<stdio.h>
 int main()
 {

@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 13:22:31   2 May 2016
+// Execution time: 0.062
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 #include <stdio.h>
 #include <iostream>
 #include <cmath>

@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 14:35:42   18 Jul 2015
+// Execution time: 0.001
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 #include<iostream>
 using namespace std;
 int main()

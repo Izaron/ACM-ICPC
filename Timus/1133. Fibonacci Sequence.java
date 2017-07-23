@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 22:05:44   10 May 2015
+// Execution time: 0.14
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 import java.io.IOException;
 import java.math.BigInteger;
 import java.util.Scanner;

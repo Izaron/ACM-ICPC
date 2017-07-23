@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 20:25:18   21 Aug 2016
+// Execution time: 0.015
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 #include <stdio.h>
 #include <random>
 #include <string.h>

@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 17:03:02   15 Feb 2016
+// Execution time: 0.171
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 import java.io.*;
 import java.util.*;
 import java.util.stream.IntStream;

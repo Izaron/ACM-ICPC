@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 22:20:20   22 May 2016
+// Execution time: 0.748
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 #pragma comment(linker, "/STACK:16777216")
 #include <iostream>
 #include <stdio.h>

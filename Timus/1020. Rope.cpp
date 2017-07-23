@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 20:49:15   6 May 2015
+// Execution time: 0.031
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 #include <iostream>
 #include <math.h>
 using namespace std;

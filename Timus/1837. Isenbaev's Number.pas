@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 14:49:27   29 Apr 2015
+// Execution time: 0.031
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 var
  mass,have:array[0..400] of string;
  mark:array[0..400] of integer;

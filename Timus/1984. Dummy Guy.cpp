@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 15:21:09   11 May 2015
+// Execution time: 0.031
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 #include <bits/stdc++.h>
 using namespace std;
 

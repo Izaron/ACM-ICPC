@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 18:07:50   6 May 2015
+// Execution time: 0.265
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 n, m = input().split()
 n = int(n)
 m = int(m)

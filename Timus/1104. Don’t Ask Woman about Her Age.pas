@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 15:45:03   1 May 2015
+// Execution time: 0.062
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 var
     a,min,k:shortint;
     t,i,tot:longint;

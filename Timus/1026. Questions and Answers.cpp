@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 23:52:36   29 Jan 2015
+// Execution time: 0.218
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 #include <string>
 #include <sstream>
 #include <cstring>

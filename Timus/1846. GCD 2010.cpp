@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 20:41:59   29 Apr 2015
+// Execution time: 0.281
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 #include <cstdio>
 #include <unordered_map>
 #include <iostream>

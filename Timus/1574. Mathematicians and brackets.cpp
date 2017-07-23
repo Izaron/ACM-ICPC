@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 22:16:09   19 May 2016
+// Execution time: 0.031
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 #include <iostream>
 #include <stdio.h>
 #include <set>

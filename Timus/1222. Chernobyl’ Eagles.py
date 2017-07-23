@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 20:43:03   11 May 2015
+// Execution time: 0.14
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 n = int(input())
 
 m = []

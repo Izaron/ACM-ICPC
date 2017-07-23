@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 13:19:20   29 May 2016
+// Execution time: 0.109
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 import java.io.*;
 import java.util.*;
 

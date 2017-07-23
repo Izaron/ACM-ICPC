@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 19:39:25   6 May 2015
+// Execution time: 0.218
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.BigInteger;

@@ -1,3 +1,10 @@
+// The solution of the problem was written by Izaron
+// Date: 14:17:09   23 Jun 2016
+// Execution time: 1.372
+
+// Please do not copy-paste the solution.
+// Try to understand what is happening here and write your own.
+
 import java.io.*;
 import java.math.BigInteger;
 import java.nio.file.Files;
