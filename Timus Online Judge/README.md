@@ -38,3 +38,16 @@ Interesting tasks that I've solved
 | [1345](http://acm.timus.ru/problem.aspx?space=1&num=1345&locale=en) | :rage1:  HTML | 1416       | Strings                  |
 | [1540](http://acm.timus.ru/problem.aspx?space=1&num=1540&locale=en) | :ring:  Battle for the Ring | 1126       | Game theory              |
 | [1730](http://acm.timus.ru/problem.aspx?space=1&num=1730&locale=en) | :bear:  ManBearPig | 970        | Greedy algorithms        |
+
+
+## Trash and blood tasks I still have solved
+
+Don't try this at home.
+
+| #    | Name                | Difficulty | Topics                   |
+|------|---------------------|------------|--------------------------|
+| [2028](http://acm.timus.ru/problem.aspx?space=1&num=2028&locale=en) | :space_invader:  URCAPL, Episode 2 | 562        | Abstract thinking           |
+| [1219](http://acm.timus.ru/problem.aspx?space=1&num=1219&locale=en)  | :trollface:  Symbolic Sequence | 119       | Good sense of humour |
+| [1230](http://acm.timus.ru/problem.aspx?space=1&num=1230&locale=en) | :neckbeard:  Introspective Program | 713       | Abstract thinking      |
+| [2063](http://acm.timus.ru/problem.aspx?space=1&num=2063&locale=en) | :black_joker:  Black and White | 341       | Cheating in game theory                  |
+| [1873](http://acm.timus.ru/problem.aspx?space=1&num=1873&locale=en) | :books:  GOV Chronicles | 431       | Reading              |
