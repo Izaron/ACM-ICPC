@@ -1,5 +1,7 @@
 # Regional Stage 2017 ![C++](https://img.shields.io/badge/language-C++-orange.svg) ![Java](https://img.shields.io/badge/language-Java-orange.svg) ![Progress](https://img.shields.io/badge/progress-699%2F801-green.svg)
 
+[Analysis in Russian](http://neerc.ifmo.ru/school/archive/2016-2017/ru-olymp-regional-2017-solutions.pdf)
+
 ## [First day](https://contest.yandex.ru/roiarchive/contest/4154/enter/)
 
 | # | Task | Solution | Points | Note |
