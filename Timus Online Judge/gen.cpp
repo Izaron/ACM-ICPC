@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <dirent.h>
 using namespace std;
 
 const string AUTHOR_NICKNAME = "Izaron";
@@ -226,8 +227,36 @@ void erase_html() {
     remove("list.html");
 }
 
+void place_in_folders() {
+    for (int v = 1; v <= 12; v++) {
+        string com = "mkdir 'Volume " + to_string(v) + "'";
+        system(com.c_str());
+    }
+
+    DIR *dir;
+    dirent *ent;
+    if ((dir = opendir (".")) != NULL) {
+        while ((ent = readdir (dir)) != NULL) {
+            string name(ent->d_name);
+            cout << name << endl;
+            if (name.size() > 6 && name[4] == '.' && name[5] == ' ') {
+                int volume = get_volume(name);
+                string vol = "Volume " + to_string(volume) + "/" + name;
+                cout << vol << endl;
+                int res = rename(name.c_str(), vol.c_str());
+                if (res == 0)
+                    puts("File successfully renamed");
+                else
+                    perror("Error renaming file");
+            }
+        }
+        closedir (dir);
+    }
+}
+
 int main() {
     load_html();
     read_html();
     erase_html();
+    //place_in_folders();
 }
