@@ -1,5 +1,7 @@
 # Regional Stage 2015 ![C++](https://img.shields.io/badge/language-C++-orange.svg) ![Java](https://img.shields.io/badge/language-Java-orange.svg) ![Progress](https://img.shields.io/badge/progress-720%2F800-green.svg)
 
+[Analysis in Russian](http://neerc.ifmo.ru/school/archive/2014-2015/ru-olymp-regional-2015-solutions.pdf)
+
 ## [First day](https://contest.yandex.ru/roiarchive/contest/2012/enter/)
 
 | # | Task | Solution | Points | Note |
