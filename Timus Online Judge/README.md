@@ -51,3 +51,5 @@ Don't try this at home.
 | [1230](http://acm.timus.ru/problem.aspx?space=1&num=1230&locale=en) | :neckbeard:  Introspective Program | 713       | Abstract thinking      |
 | [2063](http://acm.timus.ru/problem.aspx?space=1&num=2063&locale=en) | :black_joker:  Black and White | 341       | Cheating in game theory                  |
 | [1873](http://acm.timus.ru/problem.aspx?space=1&num=1873&locale=en) | :books:  GOV Chronicles | 431       | Reading              |
+
+[Want more?](http://www.spoj.com/problems/OLOLO/)
