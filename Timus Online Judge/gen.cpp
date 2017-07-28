@@ -81,6 +81,8 @@ string remove_spaces(string name) {
 }
 
 int get_volume(string name) {
+    if (name[0] < '0' || name[0] > '9') return -1;
+    if (name[1] < '0' || name[1] > '9') return -1;
     return (name[0] - '0') * 10 + (name[1] - '0') - 9;
 }
 
@@ -171,6 +173,8 @@ void read_html() {
         cout << endl;
 
         double rt = stod(runtime);
+        if (get_volume(name) == -1)
+            continue;
         if (!task_time.count(name) || task_time[name] > rt) {
             task_time[name] = rt;
             task_link[name] = link;
