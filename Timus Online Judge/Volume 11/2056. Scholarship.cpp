@@ -1,5 +1,5 @@
 // The solution of the problem was written by Izaron
-// Date: 13:12:08   3 May 2015
+// Date: 13:27:39   28 Jul 2017
 // Execution time: 0.015
 
 // Please do not copy-paste the solution.

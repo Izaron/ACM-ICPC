@@ -1,5 +1,7 @@
 # Final Stage 2017 ![C++](https://img.shields.io/badge/language-C++-orange.svg) ![Progress](https://img.shields.io/badge/progress-636%2F800-green.svg)
 
+[Analysis in Russian](http://neerc.ifmo.ru/school/archive/2016-2017/ru-olymp-roi-2017-editorial.pdf)
+
 ## [First day](https://contest.yandex.ru/roiarchive/contest/4273/enter/)
 
 | # | Task | Solution | Points | Note |
