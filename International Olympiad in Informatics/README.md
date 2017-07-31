@@ -1,5 +1,13 @@
 # International Olympiad in Informatics
 
+## [IOI 2017](https://contest.yandex.ru/ioi/contest/4767/enter/) ![Points](https://img.shields.io/badge/points-216.26/300-blue.svg)
+
+| 1st day | Task | Solution | Points |
+|---| ---- | ------ | -------- |
+| A | Nowruz | [C++](./IOI%202017/nowruz) | ✗89.26 |
+| B | Wiring | [C++](./IOI%202017/wiring.cpp) | ✓100 |
+| C | Toy Train | [C++](./IOI%202016/train.cpp) | ✗27 |
+
 ## [IOI 2016](https://contest.yandex.ru/contest/2830/problems/) ![Points](https://img.shields.io/badge/points-382/600-blue.svg)
 
 ![Bronze](https://img.shields.io/badge/bronze-240/600-C3834C.svg)
