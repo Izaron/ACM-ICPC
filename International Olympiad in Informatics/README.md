@@ -6,7 +6,7 @@
 |---| ---- | ------ | -------- |
 | A | Nowruz | [C++](./IOI%202017/nowruz) | ✗89.26 |
 | B | Wiring | [C++](./IOI%202017/wiring.cpp) | ✓100 |
-| C | Toy Train | [C++](./IOI%202016/train.cpp) | ✗27 |
+| C | Toy Train | [C++](./IOI%202017/train.cpp) | ✗27 |
 
 ## [IOI 2016](https://contest.yandex.ru/contest/2830/problems/) ![Points](https://img.shields.io/badge/points-382/600-blue.svg)
 
