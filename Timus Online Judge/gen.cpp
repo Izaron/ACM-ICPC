@@ -6,6 +6,7 @@ const string AUTHOR_NICKNAME = "Izaron";
 const string AUTHOR = "180914JU";
 const string PASSWORD = "XXXXXXXXXX";
 const int PROBLEMS_COUNT = 1108;
+const int UPD_TASK_NUMBER = -1;
 const int VOLUMES_COUNT[] = {
     100,
     100,
@@ -128,7 +129,7 @@ void gen_markdown() {
             << "?style=flat-square" << ")" << endl;
     }
 
-    cout << " :rainbow: Taste the rainbow! :rainbow: " << endl;
+    cout << endl << " :rainbow: Taste the rainbow! :rainbow: " << endl;
 }
 
 void read_html() {
@@ -139,6 +140,7 @@ void read_html() {
         s += tmp + " ";
     //cout << s << endl;
 
+	vector<string> task_names;
     int pos = 0;
     cout << "tak" << endl;
     int cnt = 0;
@@ -175,6 +177,9 @@ void read_html() {
         double rt = stod(runtime);
         if (get_volume(name) == -1)
             continue;
+		if (!task_time.count(name)) {
+			task_names.push_back(name);
+		}
         if (!task_time.count(name) || task_time[name] > rt) {
             task_time[name] = rt;
             task_link[name] = link;
@@ -184,45 +189,81 @@ void read_html() {
 
     fclose(stdin);
 
-    int cur = 1, all = task_link.size();
-    for (auto it : task_link) {
-        string name = it.first;
-        string link = it.second;
+	if (UPD_TASK_NUMBER != -1) {
+		int cnt = 0, cur = 1, all = task_link.size() - UPD_TASK_NUMBER;
+		for (int i = UPD_TASK_NUMBER; i < task_link.size(); i++) {
+			string name = task_names[cnt++];
+			string link = task_link[name];
 
-        string command = "curl -X POST -F \"JudgeID=" + AUTHOR +
-             "\" -F \"Password=" + PASSWORD + "\" -F \"action=getsubmit\" " +
-             "http://acm.timus.ru/" + link + " >\"" + name + get_extension(link) +
-             "\" 2>/dev/null";
+			string command = "curl -X POST -F \"JudgeID=" + AUTHOR +
+				 "\" -F \"Password=" + PASSWORD + "\" -F \"action=getsubmit\" " +
+				 "http://acm.timus.ru/" + link + " >\"" + name + get_extension(link) +
+				 "\" 2>/dev/null";
 
-        system(command.c_str());
-        cout << cur++ << "/" << all << " tasks are downloaded..." << endl;
-        //cout << command << endl;
-    }
+			system(command.c_str());
+			cout << cur++ << "/" << all << " tasks are downloaded..." << endl;
 
-    for (auto it : task_link) {
-        string name = it.first;
-        string link = it.second;
-        string filename = name + get_extension(link);
+			string filename = name + get_extension(link);
 
-        ofstream outputFile("tmp");
-        ifstream inputFile(filename);
-        string tempString;
+			ofstream outputFile("tmp");
+			ifstream inputFile(filename);
+			string tempString;
 
-        outputFile << "// The solution of the problem was written by " << AUTHOR_NICKNAME << endl;
-        outputFile << "// Date: " << task_date[name] << endl;
-        outputFile << "// Execution time: " << task_time[name] << endl;
-        outputFile << endl;
-        outputFile << "// Please do not copy-paste the solution." << endl;
-        outputFile << "// Try to understand what is happening here and write your own." << endl << endl;
+			outputFile << "// The solution of the problem was written by " << AUTHOR_NICKNAME << endl;
+			outputFile << "// Date: " << task_date[name] << endl;
+			outputFile << "// Execution time: " << task_time[name] << endl;
+			outputFile << endl;
+			outputFile << "// Please do not copy-paste the solution." << endl;
+			outputFile << "// Try to understand what is happening here and write your own." << endl << endl;
 
-        outputFile << inputFile.rdbuf();
+			outputFile << inputFile.rdbuf();
 
-        inputFile.close();
-        outputFile.close();
+			inputFile.close();
+			outputFile.close();
 
-        remove(filename.c_str());
-        rename("tmp", filename.c_str());
-    }
+			remove(filename.c_str());
+			rename("tmp", filename.c_str());
+		}
+	} else {
+		int cur = 1, all = task_link.size();
+		for (auto it : task_link) {
+			string name = it.first;
+			string link = it.second;
+
+			string command = "curl -X POST -F \"JudgeID=" + AUTHOR +
+				 "\" -F \"Password=" + PASSWORD + "\" -F \"action=getsubmit\" " +
+				 "http://acm.timus.ru/" + link + " >\"" + name + get_extension(link) +
+				 "\" 2>/dev/null";
+
+			system(command.c_str());
+			cout << cur++ << "/" << all << " tasks are downloaded..." << endl;
+		}
+
+		for (auto it : task_link) {
+			string name = it.first;
+			string link = it.second;
+			string filename = name + get_extension(link);
+
+			ofstream outputFile("tmp");
+			ifstream inputFile(filename);
+			string tempString;
+
+			outputFile << "// The solution of the problem was written by " << AUTHOR_NICKNAME << endl;
+			outputFile << "// Date: " << task_date[name] << endl;
+			outputFile << "// Execution time: " << task_time[name] << endl;
+			outputFile << endl;
+			outputFile << "// Please do not copy-paste the solution." << endl;
+			outputFile << "// Try to understand what is happening here and write your own." << endl << endl;
+
+			outputFile << inputFile.rdbuf();
+
+			inputFile.close();
+			outputFile.close();
+
+			remove(filename.c_str());
+			rename("tmp", filename.c_str());
+		}
+	}
 
     gen_markdown();
 }

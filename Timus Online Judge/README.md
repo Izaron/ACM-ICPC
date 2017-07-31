@@ -1,30 +1,29 @@
-# Timus Online Judge ![Progress](https://img.shields.io/badge/Progress-392%2F1108-brightgreen.svg)
+# Timus Online Judge ![Progress](https://img.shields.io/badge/Progress-403%2F1108-brightgreen.svg)
 
 
 ## Languages
-![C++](https://img.shields.io/badge/C%2B%2B-346-blue.svg)
-![Java](https://img.shields.io/badge/Java-37-red.svg)
+![C++](https://img.shields.io/badge/C%2B%2B-356-blue.svg)
+![Java](https://img.shields.io/badge/Java-38-red.svg)
 ![C#](https://img.shields.io/badge/C%23-2-87CEFA.svg)
 ![Python](https://img.shields.io/badge/Python-3-DEB887.svg)
 ![Pascal](https://img.shields.io/badge/Pascal-4-FFB6C1.svg)
 
 
-## Volumes :rainbow:
-* ![Problems solved](https://img.shields.io/badge/Volume%201-53%2F100-9400D3.svg?style=flat-square)
-* ![Problems solved](https://img.shields.io/badge/Volume%202-44%2F100-4B0082.svg?style=flat-square)
-* ![Problems solved](https://img.shields.io/badge/Volume%203-39%2F100-0000FF.svg?style=flat-square)
+## Volumes :rainbow: 
+* ![Problems solved](https://img.shields.io/badge/Volume%201-55%2F100-9400D3.svg?style=flat-square)
+* ![Problems solved](https://img.shields.io/badge/Volume%202-48%2F100-4B0082.svg?style=flat-square)
+* ![Problems solved](https://img.shields.io/badge/Volume%203-41%2F100-0000FF.svg?style=flat-square)
 * ![Problems solved](https://img.shields.io/badge/Volume%204-27%2F100-brightgreen.svg?style=flat-square)
-* ![Problems solved](https://img.shields.io/badge/Volume%205-28%2F100-yellow.svg?style=flat-square)
+* ![Problems solved](https://img.shields.io/badge/Volume%205-29%2F100-yellow.svg?style=flat-square)
 * ![Problems solved](https://img.shields.io/badge/Volume%206-33%2F100-FF7F00.svg?style=flat-square)
 * ![Problems solved](https://img.shields.io/badge/Volume%207-27%2F100-FF0000.svg?style=flat-square)
-* ![Problems solved](https://img.shields.io/badge/Volume%208-32%2F100-9400D3.svg?style=flat-square)
+* ![Problems solved](https://img.shields.io/badge/Volume%208-33%2F100-9400D3.svg?style=flat-square)
 * ![Problems solved](https://img.shields.io/badge/Volume%209-22%2F97-4B0082.svg?style=flat-square)
-* ![Problems solved](https://img.shields.io/badge/Volume%2010-27%2F100-0000FF.svg?style=flat-square)
+* ![Problems solved](https://img.shields.io/badge/Volume%2010-28%2F100-0000FF.svg?style=flat-square)
 * ![Problems solved](https://img.shields.io/badge/Volume%2011-51%2F100-brightgreen.svg?style=flat-square)
 * ![Problems solved](https://img.shields.io/badge/Volume%2012-9%2F11-yellow.svg?style=flat-square)
 
- :rainbow: Taste the rainbow! :rainbow:
-
+ :rainbow: Taste the rainbow! :rainbow: 
 
 ## Interesting tasks :notebook:
 
