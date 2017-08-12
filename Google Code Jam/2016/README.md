@@ -1,4 +1,4 @@
-# [Google Code Jam 2016](https://code.google.com/codejam/past-contests) ![C++](https://img.shields.io/badge/language-C++-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) ![Problems](https://img.shields.io/badge/progress-6%2F10-ff69b4.svg) 
+# [Google Code Jam 2016](https://code.google.com/codejam/past-contests) ![C++](https://img.shields.io/badge/language-C++-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) ![Problems](https://img.shields.io/badge/progress-7%2F10-ff69b4.svg) 
 
 C++ solutions of Google Code Jam 2016.
 
@@ -23,13 +23,13 @@ C++ solutions of Google Code Jam 2016.
 | B | [Rank and File](https://code.google.com/codejam/contest/4304486/dashboard#s=p1) | [C++](./Round%201A/rank_and_file.cpp) | ✓35 | | 
 | C | [BFFs](https://code.google.com/codejam/contest/4304486/dashboard#s=p2) | [C++](./Round%201A/bffs.cpp) | ✓45 | | 
 
-## Round 1B ![Points](https://img.shields.io/badge/points-0%2F100-blue.svg)
+## Round 1B ![Points](https://img.shields.io/badge/points-37%2F100-blue.svg)
 
 | # | Task | Solution | Points | Note |
 |---| ---- | ------ | -------- | ---- |
-| A | [Getting the Digits](https://code.google.com/codejam/contest/11254486/dashboard#s=p0) |   | ✗0 | | 
-| B | [Close Match](https://code.google.com/codejam/contest/11254486/dashboard#s=p1) |   | ✗0 | | 
-| C | [Technobabble](https://code.google.com/codejam/contest/11254486/dashboard#s=p2) |   | ✗0 | | 
+| A | [Getting the Digits](https://code.google.com/codejam/contest/11254486/dashboard#s=p0) | [C++](./Round%201B/getting_the_digits.cpp) | ✓23 | | 
+| B | [Close Match](https://code.google.com/codejam/contest/11254486/dashboard#s=p1) | [C++](./Round%201B/close_match.cpp) | ✗0 | | 
+| C | [Technobabble](https://code.google.com/codejam/contest/11254486/dashboard#s=p2) | [C++](./Round%201B/technobabble.cpp) | ✗14 | | 
 
 ## Build and run
 ```
