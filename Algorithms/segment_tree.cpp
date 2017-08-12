@@ -1,18 +1,17 @@
 #include <vector>
 #include <functional>
 #include <iostream>
-using namespace std;
 
 template<class T>
 class segment_tree {
   private:
 	int n;
-	vector<T> t;
+	std::vector<T> t;
 
-	function<T(T, T)> effect_func;
+	std::function<T(T, T)> effect_func;
 	T neutral_value;
 
-	void build(vector<T>& vec, int v, int l, int r) {
+	void build(std::vector<T>& vec, int v, int l, int r) {
 		if (l == r) {
 			t[v] = vec[l];
 		} else {
@@ -46,7 +45,7 @@ class segment_tree {
 	}
 
   public:
-	void init(vector<T> vec, function<T(T, T)> effect_func, T neutral_value) {
+	void init(std::vector<T> vec, std::function<T(T, T)> effect_func, T neutral_value) {
 		this->n = (int) vec.size();
 		this->effect_func = effect_func;
 		this->neutral_value = neutral_value;
@@ -54,7 +53,7 @@ class segment_tree {
 		build(vec, 1, 0, n - 1);
 	}
 
-	void init(int n, function<T(T, T)> effect_func, T neutral_value) {
+	void init(int n, std::function<T(T, T)> effect_func, T neutral_value) {
 		this->n = n;
 		this->effect_func = effect_func;
 		this->neutral_value = neutral_value;
@@ -71,21 +70,23 @@ class segment_tree {
 	}
 };
 
+#ifdef ALGOS_STANDALONE
 int main() {
 	segment_tree<int64_t> t;
 	int n;
-	cin >> n;
-	vector<int64_t> vec(n);
+	std::cin >> n;
+	std::vector<int64_t> vec(n);
 	for (int i = 0; i < n; i++)
-		cin >> vec[i];
+		std::cin >> vec[i];
 
-	t.init(vec, plus<int64_t>(), 0);
+	t.init(vec, std::plus<int64_t>(), 0);
 	
 	int m;
-	cin >> m;
+	std::cin >> m;
 	for (int i = 0; i < m; i++) {
 		int l, r;
-		cin >> l >> r;
-		cout << t.get(l - 1, r - 1) << endl;
+		std::cin >> l >> r;
+        std::cout << t.get(l - 1, r - 1) << std::endl;
 	}
 }
+#endif
